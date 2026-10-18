@@ -1,0 +1,46 @@
+# Сборка
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake (на случай сборки в корне)
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+Makefile
+compile_commands.json
+
+# Объектные файлы и бинарники
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Покрытие
+*.gcda
+*.gcno
+*.gcov
+coverage*.html
+coverage*.xml
+coverage.info
+
+# Кэш clangd
+.cache/
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
